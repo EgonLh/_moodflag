@@ -82,7 +82,8 @@ if submit:
     st.dataframe(transposed_df, use_container_width=True)
     
     # services :connecting to backend for prediction
-    ENV = os.getenv("BACKEND_URL")
+    # ENV = os.getenv("BACKEND_URL")
+    ENV = "https://moodflag-api.onrender.com/"  
     try:
         response = requests.post(f"{ENV}/predict", json=user_data)
         with st.spinner("Wait for it...", show_time=True):
