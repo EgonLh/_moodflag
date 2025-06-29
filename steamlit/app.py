@@ -115,6 +115,6 @@ Your well-being matters.</div>
 st.markdown("""
 <div style='text-align: center; font-size: 14px; color: #888
 ; margin-bottom: 20px;'>
-Developed by ...
+Developed by ... <a href='https://github.com/EgonLh'>Egon</a>
 </div>
 """,unsafe_allow_html=True)

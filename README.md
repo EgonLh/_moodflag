@@ -55,3 +55,24 @@ In today's fast-paced world, mental health challenges like mood swings often go 
 │
 ├── requirements.txt            # Python dependencies
 └── README.md
+
+```
+
+# MoodFlag Project Resources
+
+
+Frontend  
+- **Live App:**  
+  [ MoodFlag Streamlit App](https://moodflag-yxmsxx9v3vkkrjhphbqopn.streamlit.app/)
+
+
+Backend (API)  
+- **API Docs (Swagger UI):**  
+  [📘 MoodFlag API Documentation](https://moodflag-api.onrender.com/docs)
+
+
+Dataset & Model Exploration  
+- **Kaggle Notebook:**  
+  [📈 ML Applications to Mental Health Diagnosis](https://www.kaggle.com/code/maxboonjindasup/ml-applications-to-mental-health-diagnosis#Model-Building-&-Comparisons)
+
+---
