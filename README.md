@@ -28,34 +28,19 @@ In today's fast-paced world, mental health challenges like mood swings often go 
 ## Folder Structure
 
 ```bash
-.
 ├── app/
-│   ├── main.py                 # FastAPI app for serving predictions
-│   └── model/
-│       ├── xgb_model.pkl       # Trained XGBoost model
-│       ├── encoder.pkl         # Saved label encoders (as a dictionary)
-│       └── __init__.py
-│
+│   ├── main.py             # FastAPI app for serving predictions
+├── model/
+│   ├── xgb_model.pkl       # Trained XGBoost model
+│   ├── encoder.pkl         # Saved label encoders (as a dictionary)
+│   ├── train_model.py      # Script to train and save the model
 ├── streamlit_app/
-│   ├── app.py                  # Streamlit web application
-│   └── utils.py                # Utility functions for the UI
-│
-├── training/
-│   ├── train_model.py          # Script to train and save the model
-│   ├── preprocess.py           # Script to encode and preprocess data
-│   └── utils.py                # Helper functions for training pipeline
-│
+│   ├── app.py              # Streamlit web application
 ├── data/
-│   ├── raw_data.csv            # Original dataset
-│   └── cleaned_data.csv        # Cleaned and preprocessed dataset
-│
-├── tests/
-│   ├── test_api.py             # Test cases for API endpoints
-│   └── test_model.py           # Unit tests for model logic
-│
-├── requirements.txt            # Python dependencies
+│   ├── raw_data.csv         # Original dataset
+│   └── cleaned_data.csv     # Cleaned and preprocessed dataset
+├── PipFile                  # Python dependencies
 └── README.md
-
 ```
 
 # MoodFlag Project Resources
